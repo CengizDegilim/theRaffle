@@ -8,8 +8,8 @@
 #                                                
 #                                                
 # made by: Ceyhun Gülbaş
-# https://github.com/CengizDegilim
-
+# https://github.com/ceyhungulbas
+#_________________________________________________
 import random
 
 print("<<<<<<<<<<<<<<<<<<<<<<<<<<\n"+"|\t\t\t|"+"\n|Welcome to the Raffle. |"+"\n|\t\t\t|\n"+">>>>>>>>>>>>>>>>>>>>>>>>>")
