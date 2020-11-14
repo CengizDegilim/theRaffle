@@ -1,4 +1,3 @@
-
 #    _   _            _____        __  __ _      
 #   | | | |          |  __ \      / _|/ _| |     
 #   | |_| |__   ___  | |__) |__ _| |_| |_| | ___ 
@@ -12,7 +11,7 @@
 #_________________________________________________
 import random
 
-print("<<<<<<<<<<<<<<<<<<<<<<<<<<\n"+"|\t\t\t|"+"\n|Welcome to the Raffle. |"+"\n|\t\t\t|\n"+">>>>>>>>>>>>>>>>>>>>>>>>>")
+print("<<<<<<<<<<<<<<<<<<<<<<<<<\n"+"|\t\t\t|"+"\n|Welcome to the Raffle. |"+"\n|\t\t\t|\n"+">>>>>>>>>>>>>>>>>>>>>>>>>")
 
 size = int(input('\n\n\nHow many participants applied: '))
 values = [(input('Names of participants: ')) for _ in range(size)]
@@ -22,3 +21,5 @@ print("List of participants: ", ', '.join(values))
 
 winner = random.sample(values, 1)
 print("Winner: ", ', '.join(winner))
+
+input("Sonlandırın.")
