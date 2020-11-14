@@ -22,4 +22,4 @@ print("List of participants: ", ', '.join(values))
 winner = random.sample(values, 1)
 print("Winner: ", ', '.join(winner))
 
-input("Sonlandırın.")
+input("Fin.")
